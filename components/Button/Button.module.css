@@ -1,0 +1,17 @@
+.button {
+    background-color: black;
+    padding: 1rem 2rem;
+    border: 1px solid var(--icons-color);
+    border-radius: 2rem;
+    font-size: 1.1rem;
+    color: white;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+    box-shadow: var(--box-shadow);
+}
+
+.button:hover {
+    background-color: white;
+    border: 1px solid var(--icons-color);
+    color: black;
+}

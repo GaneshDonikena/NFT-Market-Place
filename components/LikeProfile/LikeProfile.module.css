@@ -1,0 +1,9 @@
+.like {
+    display: flex;
+    align-items: flex-start;
+}
+
+.like_box_img {
+    border: 0.4px solid black;
+    border-radius: 50%;
+}

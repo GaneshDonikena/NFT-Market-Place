@@ -1,6 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
-}
 
-module.exports = nextConfig
+module.exports = {
+    reactStrictMode: true,
+    images: {
+        domains: ["ganesh-nft-marketplace.infura-ipfs.io"],
+        formats: ["image/webp"],
+    },
+}
